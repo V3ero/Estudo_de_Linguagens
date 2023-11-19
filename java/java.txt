@@ -1,0 +1,80 @@
+ comandos iniciais com exemplos simples:
+
+1- Declaração de Classe:
+
+	public class MinhaClasse {
+	    // Código da classe aqui
+	}
+
+
+2- Método Principal (main):
+
+	public static void main(String[] args) {
+	    // Código a ser executado quando o programa é iniciado
+	}
+
+
+3- Declaração de Variáveis:
+
+	int numero = 10;
+	double salario = 1000.50;
+	String nome = "Exemplo";
+
+
+4- Estrutura de Controle - Condicional (if-else):
+
+	int idade = 18;
+	if (idade >= 18) {
+	    System.out.println("Você é maior de idade.");
+	} else {
+	    System.out.println("Você é menor de idade.");
+	}
+
+
+5- Estrutura de Controle - Loop (for):
+
+	for (int i = 0; i < 5; i++) {
+	    System.out.println("Iteração " + i);
+	}
+
+
+6- Estrutura de Controle - Loop (while):
+
+	int contador = 0;
+	while (contador < 5) {
+	    System.out.println("Contagem: " + contador);
+	    contador++;
+	}
+
+
+7- Array:
+
+	int[] numeros = {1, 2, 3, 4, 5};
+
+
+8- Chamada de Método:
+
+	// Definição do método
+	public void exibirMensagem() {
+	    System.out.println("Olá, mundo!");
+	}
+
+	// Chamada do método
+	exibirMensagem();
+
+
+9- Entrada de Dados (Scanner):
+
+	import java.util.Scanner;
+
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Digite um número: ");
+	int numeroDigitado = scanner.nextInt();
+
+
+10- Saída de Dados (System.out.println):
+
+	System.out.println("Isso é um exemplo em Java.");
+
+
+Esses são alguns dos comandos iniciais comuns em Java.
