@@ -1,0 +1,62 @@
+Comandos iniciais comuns em JavaScript, incluindo a declaração de variáveis, estruturas de controle e funções:
+
+1- Declaração de Variáveis:
+
+	var numero = 10;
+	let salario = 1000.50;
+	const nome = "Exemplo";
+
+
+2- Estrutura de Controle - Condicional (if-else):
+
+	let idade = 18;
+	if (idade >= 18) {
+    		console.log("Você é maior de idade.");
+	} else {
+   		console.log("Você é menor de idade.");
+	}
+
+
+3- Estrutura de Controle - Loop (for):
+
+	for (let i = 0; i < 5; i++) {
+   		console.log("Iteração " + i);
+	}
+
+
+4- Estrutura de Controle - Loop (while):
+
+	let contador = 0;
+	while (contador < 5) {
+    		console.log("Contagem: " + contador);
+    		contador++;
+	}
+
+
+5- Array:
+
+	let numeros = [1, 2, 3, 4, 5];
+
+
+6- Função:
+
+	function exibirMensagem() {
+    		console.log("Olá, mundo!");
+	}
+
+	// Chamada da função
+		exibirMensagem();
+
+
+7- Entrada de Dados (prompt):
+
+	let numeroDigitado = prompt("Digite um número:");
+	console.log("Número digitado: " + numeroDigitado);
+
+
+8- Saída de Dados (console.log):
+
+	console.log("Isso é um exemplo em JavaScript.");
+
+
+Estes são apenas alguns dos comandos iniciais em JavaScript. Lembre-se de que, no caso do JavaScript, você pode executar código diretamente no navegador ou em um ambiente Node.js. Além disso, o JavaScript moderno utiliza let e const para declaração de variáveis, e var é menos comumente usado.

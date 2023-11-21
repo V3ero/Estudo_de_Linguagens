@@ -1,0 +1,52 @@
+Comandos iniciais comuns em Python, incluindo declaração de variáveis, estruturas de controle e funções:
+
+1- Declaração de Variáveis:
+
+	numero = 10
+	salario = 1000.50
+	nome = "Exemplo"
+
+2- Estrutura de Controle - Condicional (if-else):
+
+	idade = 18
+	if idade >= 18:
+    		print("Você é maior de idade.")
+	else:
+    		print("Você é menor de idade.")
+
+3- Estrutura de Controle - Loop (for):
+
+	for i in range(5):
+    		print("Iteração", i)
+
+4- Estrutura de Controle - Loop (while):
+
+	contador = 0
+	while contador < 5:
+    		print("Contagem:", contador)
+    		contador += 1
+
+5- Lista (Array em Python):
+
+	numeros = [1, 2, 3, 4, 5]
+
+6- Função:
+
+	def exibir_mensagem():
+    		print("Olá, mundo!")
+
+	# Chamada da função
+	exibir_mensagem()
+
+7- Entrada de Dados (input):
+
+	numero_digitado = input("Digite um número: ")
+	print("Número digitado:", numero_digitado)
+
+8- Saída de Dados (print):
+
+	print("Isso é um exemplo em Python.")
+
+Estes são alguns dos comandos iniciais em Python. 
+Python é conhecido por sua sintaxe limpa e fácil de ler, tornando-o uma escolha popular para desenvolvedores, especialmente em aprendizado de programação. 
+Lembre-se de que em Python, a indentação é fundamental para indicar blocos de código, não sendo utilizado delimitadores como chaves {} como em Java ou JavaScript.
