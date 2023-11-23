@@ -1,6 +1,6 @@
 # O codigo foi analizado e corrigido via ChatGPT
 # O uso da ferramenta se deve a estudos autônomos
-# Apenas as seções com comentário a baixo foram modificados
+# Apenas as seções com comentário abaixo foram modificados
 # O código em si foi produzido manualmente
 
 def main():
